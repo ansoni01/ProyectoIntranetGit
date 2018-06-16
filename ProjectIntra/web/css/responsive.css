@@ -1,0 +1,76 @@
+/* Media Querys */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #login-main {
+    width: 761px;
+  }
+  #cuadro{
+    width: 240px;     
+  }
+
+  #cuadro2{
+      width: 420px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  #login-main {
+    width: 500px;
+  }
+  #cuadro, #cuadro2 {
+    width: 460px;
+  }
+  .nombre {
+    font-size: 18px;
+  }
+  .insignia {
+    width: 100px;
+  }
+  .desc {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  #login-main {
+    width: 300px;
+  }
+  #cuadro, #cuadro2 {
+    width: 270px;
+  }
+  .lg-box {
+    padding: 10px !important;
+  }
+  .nombre {
+    line-height: 16px;
+    font-size: 14px !important;
+  }
+  .insignia {
+    width: 70px;
+    margin-bottom: 0;
+  }
+  .desc {
+    display: none;
+  }   
+  .titulo{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .lg-box {
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .lg-box {
+    float: none;
+  }
+  #cuadro2 {
+    background-color: transparent !important;
+    border-left: none;
+  }
+  .lg-box:first-child {
+    border-bottom: solid 1px #000;
+  }
+}

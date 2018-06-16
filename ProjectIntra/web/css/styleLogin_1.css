@@ -1,0 +1,148 @@
+/*Login*/
+*{
+    margin:0px;
+    padding: 0px;
+}
+html, body {
+    height: 100%;
+}
+body{
+    font: 12px "Calibri";
+}
+
+#main {
+    display:table; 
+    height:100%; 
+    margin: 0 auto;
+}
+
+#contain_center {
+    display: table-cell; 
+    vertical-align: middle;
+}
+
+.bgfull {
+    background: url(../Imagenes/andrea.jpg);
+    background-size:  cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#login-main {
+    background-color: #141414; 
+    opacity: 0.8;
+    overflow: hidden;
+    width: 971px;
+    display: block; 
+    min-width: 300px;
+}
+
+#login-main a {
+    color: white;
+}
+
+.lg-box {
+    padding: 30px;
+    float: right;
+}
+
+.lg-box:first-child {
+    border-left: solid 1px #000;
+}
+
+.seccion {
+    text-align: center;
+    padding: 5px 5px 10px;
+    background: #090909;
+    color: #fff;
+}
+
+#cuadro{
+    width: 330px;     
+}
+
+#cuadro2{
+    width: 500px;
+}
+
+.titulo {
+    border-bottom: solid 1px;
+    font-size: 24px;
+    padding-bottom: 10px; 
+    line-height: 24px; 
+}
+
+.subtitulo {
+    display: block;
+    margin: 18px 0 14px;
+    font-size: 16px;
+}
+
+.entrada {
+    width: 94%;
+    height:38px;
+    border: none;
+    font-size: 17px;
+    padding: 0 2%;
+}
+
+input[type="submit"]{
+    width: 98%;
+    height: 45px;
+    background: #0707a5;
+    border: none;
+    cursor: pointer;
+    font: 20px "Calibri";
+    color: #ffffff;
+    margin: 24px 0 10px;
+}
+input[type="submit"]:hover{
+    background: blue;
+}
+
+.insignia {
+    margin: 15px 0;
+    width: 120px;
+}
+/* Links*/
+a {
+    text-decoration: none;
+}
+a:link {
+    color: blue;    
+}
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+/*Imagen de la insignia*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    font-size: 20px;
+}
